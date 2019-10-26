@@ -3226,23 +3226,15 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#header nav a[href="#menu"] {
-				width: 4em;
-				white-space: nowrap;
-				text-indent: 4em;
-				position: relative;
+			#header > h1{
+				display: none;
 			}
-
-				#header nav a[href="#menu"]:before {
-					width: inherit;
-					position: absolute;
-					top: 0;
-					left: 0;
-					text-indent: 0;
-					text-align: right;
-					margin-left: 0;
-					padding-right: 1.25em;
-				}
+			#nav-bar {
+				width: 360px;
+			}
+			#nav-bar li {
+				margin: 0;
+			}
 
 		}
 
