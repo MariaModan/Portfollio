@@ -4169,6 +4169,8 @@ input, select, textarea {
 	}
 
 /* modifications */
+	.inner > .content > p {
+	}
 
 	article {
 		display: flex;
@@ -4176,9 +4178,10 @@ input, select, textarea {
 	}
 
 	.icons {
-		margin-top:auto
+		margin-top:auto;
+		margin-bottom: 1em;
 	}
 
 	.icon {
-		padding-right: 0.5em;
+		padding-right: 0.7em;
 	}
